@@ -116,4 +116,4 @@ If you have [appledoc](http://gentlebytes.com/appledoc/) installed, you can gene
 	
 ## Note
 
-(Real) Apple remote notifications are limited to 256 bytes content length.
+(Real) Apple remote notifications are limited to 2048 bytes content length in iOS 8+ (formerly 256 bytes).

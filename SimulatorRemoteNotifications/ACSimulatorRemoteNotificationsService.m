@@ -19,9 +19,9 @@
 
 /* Note on payload length:
  * udp max length is 65,507 bytes
- * apns max length is 256 bytes
+ * apns max length is 2048 in iOS 8+ (formerly 256 bytes)
  */
-static const NSInteger SimulatorRemoteNotificationsServiceBufferLength = 512;
+static const NSInteger SimulatorRemoteNotificationsServiceBufferLength = 4096;
 static const NSInteger SimulatorRemoteNotificationsServiceDefaultPort = 9930;
 static NSString * const SimulatorRemoteNotificationsServiceDefaultHost = @"127.0.0.1";
 
